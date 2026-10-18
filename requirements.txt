@@ -1,0 +1,10 @@
+# DS-505 Practicals - install with:  pip install -r requirements.txt
+notebook>=7.0         # Jupyter Notebook (or use JupyterLab / VS Code / Google Colab)
+ipykernel>=6.0
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.2
+matplotlib>=3.7
+pyspark>=3.5          # Unit 2 (needs Java 8/11/17 installed)
+transformers>=4.40,<5 # Unit 4 - practicals 15, 16
+torch>=2.0            # backend for transformers (CPU build is fine)
